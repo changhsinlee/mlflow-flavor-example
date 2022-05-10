@@ -24,14 +24,28 @@ source .venv/bin/activate
 
 # For Windows
 .venv\Scripts\activate
-
-# Navigate to where setup.py is
-pip install -e .
 ```
 
 ### Installing dependencies
 
 Once the virtual environment is activated, run
+
+```sh
+# Navigate to where setup.py is
+pip install -e .
+```
+
+### Start MLFlow server
+
+Once the virtual environment is activated, run
+
+```sh
+mlflow ui
+```
+
+and it will start a local MLFlow server at the default URI: http://127.0.0.1:5000 
+
+Note: most teams run MLFlow as remote server. For our purpose here I'm not going to bother with it.
 
 ### Running tests
 
