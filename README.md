@@ -52,6 +52,11 @@ Note: most teams run MLFlow as remote server. For our purpose here I'm not going
 To run the tests, run
 
 ```sh
-# print out the durations for each test
-pytest --durations=0
+pytest
+```
+
+If you want to ignore the deprecation warnings, run
+
+```sh
+pytest -W ignore::DeprecationWarning
 ```
