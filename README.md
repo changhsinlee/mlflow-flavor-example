@@ -6,7 +6,7 @@ Example on how to create a custom flavor for MLFlow
 
 ### Requirements
 
-* Python version `>=3.8` is required.
+* Python version `>=3.9` is required.
 
 ### Create environment
 
@@ -45,7 +45,7 @@ mlflow ui
 
 and it will start a local MLFlow server at the default URI: http://127.0.0.1:5000 
 
-Note: most teams run MLFlow as remote server. For our purpose here I'm not going to bother with it.
+Note: most teams run MLFlow as remote server. For our purpose here I'm not going to bother with setting one up here.
 
 ### Running tests
 
