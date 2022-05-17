@@ -44,8 +44,8 @@ mlflow ui
 ```
 
 and it will start a local MLFlow server at the default URI: http://127.0.0.1:5000 
-
-Note: most teams run MLFlow as remote server. For our purpose here I'm not going to bother with setting one up here.
+p
+Note: most teams run MLFlow as a remote server. For our purpose here I'm not going to bother with setting one up here. You will not be able to log models to Model Registry with this set u. For more information, please see the official [MLFlow doc](https://www.mlflow.org/docs/latest/index.html)
 
 ### Running tests
 
