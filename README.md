@@ -43,9 +43,9 @@ Once the virtual environment is activated, run
 mlflow ui
 ```
 
-and it will start a local MLFlow server at the default URI: http://127.0.0.1:5000 
-p
-Note: most teams run MLFlow as a remote server. For our purpose here I'm not going to bother with setting one up here. You will not be able to log models to Model Registry with this setup. For more information, please see [the official MLFlow doc](https://www.mlflow.org/docs/latest/index.html).
+and it will start a local MLFlow server at the default URI: http://127.0.0.1:5000 with artifacts saved to `./mlruns`
+
+Note: most teams run MLFlow as a remote server. I'm not going to bother with setting one up here. You will not be able to log models to Model Registry and test the full `log_model()`, `load_model()` workflow with this setup. For more information, please see [the official MLFlow doc](https://www.mlflow.org/docs/latest/index.html).
 
 ### Running tests
 
